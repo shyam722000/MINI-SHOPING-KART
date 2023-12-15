@@ -5,16 +5,23 @@
     justify-content: center;
     margin-top: 40px;
 }
-.tab-container {
+.tab-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.tabs {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-left: 240px;
-    width: 1100px;
-    height: 80px;
-    flex-shrink: 0;
+   
+    width: 1000px;
+    height: 60px;
+    
     border-radius: 2px;
     background: #F2F2F2;
 
@@ -22,7 +29,7 @@
 h1{
     text-align: center;
     font-family: Inter;
-font-size: 50px;
+font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -38,8 +45,9 @@ text-transform: uppercase;
     color: #000000;
     border-radius: 5px;
     width: 300px;
-    font-family: Inter;
-font-size: 20px;
+    height: 30px;
+    font-family: 'Inter';
+font-size: 18px;
 font-style: normal;
 font-weight: 600;
 /* line-height: normal; */
@@ -49,7 +57,7 @@ font-weight: 600;
 .tab:hover {
     background-color: #000000;
     color: white;
-    height: 80px;
+    height: 60px;
 }
 .tab:active{
     background-color: #a73e3e;
@@ -67,14 +75,14 @@ font-weight: 600;
 align-items: flex-start;
 justify-content: center;
 /* height: 00px; */
-flex-wrap: wrap;
+/* flex-wrap: wrap; */
 
 
 
 }
 .lists{
     /* border: 2px solid rebeccapurple; */
-    height: 450px;
+    height: 550px;
     
     
 }
